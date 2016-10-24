@@ -1,0 +1,121 @@
+{
+  "basics": {
+    "name": "David Whitely",
+    "label": "Programmer",
+    "picture": "https://pixabay.com/static/uploads/photo/2014/03/29/09/17/cat-300572_960_720.jpg",
+    "email": "davydka@gmail.com",
+    "phone": "(646) 209-4244",
+    "website": "http://107.170.100.207:8010",
+    "summary": "I was born in Seattle, went to school in Chicago, and now reside in Brooklyn. I like walking around.",
+    "location": {
+      "address": "851 Manhattan Ave",
+      "postalCode": "NY 11222",
+      "city": "Brooklyn",
+      "countryCode": "US",
+      "region": "NYC"
+    },
+    "profiles": [
+      {
+        "network": "Instagram",
+        "username": "davydka",
+        "url": "https://www.instagram.com/davydka/"
+      },
+      {
+        "network": "GitHub",
+        "username": "davydka",
+        "url": "https://github.com/davydka"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Code and Theory",
+      "position": "Senior Computer Engineer of Industrial Design",
+      "website": "http://www.codeandtheory.com/",
+      "startDate": "2011-01-01",
+      "endDate": "Present",
+      "summary": "Began at C&T as a Front End Web Developer and worked my way up to Senior Developer. Worked for a few years using the LAMP stack. Now I hack hardware for the Industrial Design Department to build consumer electronics and large LED walls using Node and WebGL. My primary language is JavaScript though I'm interested in C, Lua, and the Unity engine for VR.",
+      "highlights": [
+	"HearstLive: Front-End Tech Lead for a permanent LED wall installation at Hearst Tower in NYC. The entire installation uses 7 million LEDs. It is more than 50 feet long and about 12 feet tall on both the 8th Avenue and 57th Street sides. Developed HTML-Canvas based display software running at UHD 4K resolution with 24/7 uptime. It integrates with a Laravel backend and is updated 4 x per day by an editorial team. Built with React, Node, Electron, Vim, and WebGL. You can see it at 300 W 57th St, New York, NY. http://www.adweek.com/news/press/hearsts-new-content-platform-part-news-feed-part-art-installation-173593",
+	"3D Data Visualization for Foursquare to show off their new Pinpoint service. Completely modular and reusable internal tool for Foursquare. https://vimeo.com/124430724",
+        "Touch-screen prototype of a remote control for Comcast using a hand-soldered circuit along with an Arduino Micro and a 3-D printed enclosure. http://107.170.100.207:8010/prototype.pdf",
+        "Migrated 330,000+ image records from a legacy custom PHP/MySQL CMS into Wordpress for the Vogue.com redesign"
+      ]
+    },
+    {
+      "company": "Pronto.com",
+      "position": "Front End Developer",
+      "website": "http://www.pronto.com/",
+      "startDate": "2010-01-01",
+      "endDate": "2011-01-01",
+      "summary": "Pixel perfect front-end development using CSS, jQuery, and JSTL. Strong emphasis on cross-browser compatibility and performance. 18 Million visitors per month with in-depth analytics and AB testing reviews and check ins. Part of IAC.com.",
+      "highlights": [
+      ]
+    },
+    {
+      "company": "The Museum of Modern Art",
+      "position": "Freelance",
+      "website": "http://www.moma.org/",
+      "startDate": "2009-09-01",
+      "endDate": "2010-08-01",
+      "summary": "Migrated the company intranet from Microsoft SQL Server to new MySQL based system. Fixed various user interface bugs and added new functionality to their CMS as well as made some requested layout changes to their Smarty template. Provided technical documentation of their system.",
+      "highlights": [
+      ]
+    },
+    {
+      "company": "Museum of Contemporary Art Chicago",
+      "position": "Freelance",
+      "website": "https://mcachicago.org/",
+      "startDate": "2009-09-01",
+      "endDate": "2010-08-01",
+      "summary": "Development of content management system for Collections and Exhibitions Departments using MySQL, Filemaker Pro, and Codeigniter, and jQuery.",
+      "highlights": [
+      ]
+    },
+    {
+      "company": "Skull Squad",
+      "position": "Freelance",
+      "website": "",
+      "startDate": "2008-03-01",
+      "endDate": "2009-07-01",
+      "summary": "Small, now defunct web shop in Seattle. Front-end and back-end development of promotional websites using Drupal and Wordpress.",
+      "highlights": [
+      ]
+    },
+    {
+      "company": "Museum of Contemporary Art Chicago",
+      "position": "Information Systems Specialist",
+      "website": "https://mcachicago.org/",
+      "startDate": "2006-10-01",
+      "endDate": "2008-09-01",
+      "summary": "Developer of Museum Intranet using PHP, MySQL, CSS, and JavaScript. Assistant development of mcachicago.org, using CSS and JavaScript.",
+      "highlights": [
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Northwestern University",
+      "area": "Music Technology and Jazz Upright Bass",
+      "studyType": "Bachelors of Music",
+      "startDate": "2000",
+      "endDate": "2004"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Music",
+      "keywords": [
+        "Built to Spill",
+        "Swirlies"
+      ]
+    },
+    {
+      "name": "MIDI",
+      "keywords": [
+        "Sysex",
+        "8-bit protocol"
+      ]
+    }
+  ]
+}
