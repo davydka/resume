@@ -2,7 +2,8 @@
   "basics": {
     "name": "David Whitely",
     "label": "Programmer",
-    "picture": "https://pixabay.com/static/uploads/photo/2014/03/29/09/17/cat-300572_960_720.jpg",
+    "picture": "/gazelle.gif",
+    "pictureSmall": "/gazelle-small.gif",
     "email": "davydka@gmail.com",
     "phone": "(646) 209-4244",
     "website": "http://107.170.100.207:8010",
