@@ -11,6 +11,16 @@ p {
 	margin: 10px 0 0 0;
 }
 
+a {
+	color: black;
+}
+
+ul {
+	margin:0;
+	padding:0;
+	list-style-position: inside;
+}
+
 .container {
 	max-width:960px;
 	margin: 0 auto;
@@ -22,6 +32,10 @@ p {
 }
 
 .section {
+	border-bottom: 1px solid black;
+	position: relative;
+}
+.sub-section {
 	padding-bottom: 14px;
 	margin: 0 0 16px 0;
 	//border-bottom: 1px solid black;
@@ -45,9 +59,6 @@ p {
 }
 
 .title {
-	border-bottom: 1px solid black;
-	position: relative;
-
 	img {
 		position: absolute;
 		top: 0;
@@ -60,4 +71,22 @@ p {
 }
 
 .about {
+}
+
+.profiles {
+}
+
+.work-container {
+	border: 1px solid black;
+	padding: 10px;
+
+	h2 {
+		font-size: 32px;
+		padding: 0 0 10px 0;
+		border-bottom: 1px solid black;
+	}
+	
+	ul {
+		 list-style: none;
+	 }
 }

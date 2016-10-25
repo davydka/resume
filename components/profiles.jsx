@@ -5,18 +5,20 @@ module.exports = React.createClass({
 
 	componentWillMount: function(){
 		this.profileItems = this.props.profiles.map(function(item, index){
-			return <p key={index}>{item.network}</p>
+			return <li key={index}>
+				<a href={item.url}>{item.network}</a>
+			</li>
 		});
 	},
 
 	render: function(){
-		return (<div className='section row profiles'>
+		return (<div className='sub-section row profiles'>
 			<div className='col-1'>
 				<h2>Profiles</h2>
 			</div>
-			<div className='col-2'>
+			<ul className='col-2'>
 				{this.profileItems}
-			</div>
+			</ul>
 		</div>)
 	}
 })

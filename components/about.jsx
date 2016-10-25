@@ -2,7 +2,7 @@ var React = require('react');
 
 module.exports = React.createClass({
 	render: function(){
-		return (<div className='section row about'>
+		return (<div className='sub-section row about'>
 			<div className='col-1'>
 				<h2>About</h2>
 			</div>
