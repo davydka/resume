@@ -17,6 +17,11 @@
     },
     "profiles": [
       {
+        "network": "LinkedIn",
+        "username": "davydka",
+        "url": "https://www.linkedin.com/in/davydka"
+      },
+      {
         "network": "Instagram",
         "username": "davydka",
         "url": "https://www.instagram.com/davydka/"
