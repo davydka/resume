@@ -7,6 +7,8 @@ var Contact = require('./components/contact');
 var About = require('./components/about');
 var Profiles = require('./components/profiles');
 var Work = require('./components/work');
+var Education = require('./components/education');
+var Highlights = require('./components/highlights');
 
 var App = React.createClass({
 
@@ -39,6 +41,17 @@ var App = React.createClass({
 				<h2>Work</h2>
 				<Work
 					work={this.props.Resume.work}
+				/>
+			</div>
+
+			<Education
+				education={this.props.Resume.education}
+			/>
+			
+			<div className='highlights-container'>
+				<h2>Highlights</h2>
+				<Highlights
+					highlights={this.props.Resume.highlights}
 				/>
 			</div>
 		</div>);

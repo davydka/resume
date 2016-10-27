@@ -1,20 +1,22 @@
 var React = require('react');
 
 module.exports = React.createClass({
-	workItems: [],
+	highlightItems: [],
 
 	componentWillMount: function(){
-		this.workItems = this.props.work.map(function(item, index){
+		this.highlightItems = this.props.highlights.map(function(item, index){
 			return <li className='row' key={index}>
 				<h4>
-					<a href={item.website} target='_blank'>
-						{item.company}
+					<a href={item.link} target='_blank'>
+						{item.title}
 					</a>
 				</h4>
 				<div className='col-1'>
 					<h5>{item.position}</h5>
 					<p className='plain'>
-						{item.startDate} &mdash; {item.endDate}
+						<a href={item.link} target='_blank'>
+							{item.link}
+						</a>
 					</p>
 				</div>
 				<div className='col-2'>
@@ -25,8 +27,8 @@ module.exports = React.createClass({
 	},
 
 	render: function(){
-		return <ul className='work'>
-			{this.workItems}
+		return <ul className='highlights'>
+			{this.highlightItems}
 		</ul>
 	}
 })

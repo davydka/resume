@@ -6,7 +6,7 @@ module.exports = React.createClass({
 	componentWillMount: function(){
 		this.profileItems = this.props.profiles.map(function(item, index){
 			return <li key={index}>
-				<a href={item.url}>{item.network}</a>
+				<a href={item.url} target='_blank'>{item.network}</a>
 			</li>
 		});
 	},

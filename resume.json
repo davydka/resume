@@ -7,7 +7,7 @@
     "email": "davydka@gmail.com",
     "phone": "(646) 209-4244",
     "website": "http://107.170.100.207:8010",
-    "summary": "I was born in Seattle, went to school in Chicago, and now reside in Brooklyn. I like walking around.",
+    "summary": "I was born in Seattle, went to school in Chicago, and now reside in Brooklyn. I enjoy walking around.",
     "location": {
       "address": "851 Manhattan Ave",
       "postalCode": "NY 11222",
@@ -36,7 +36,7 @@
   "work": [
     {
       "company": "Code and Theory",
-      "position": "Senior Computer Engineer of Industrial Design",
+      "position": "Senior Developer of Industrial Design",
       "website": "http://www.codeandtheory.com/",
       "startDate": "2011-01-01",
       "endDate": "Present",
@@ -60,7 +60,7 @@
     },
     {
       "company": "The Museum of Modern Art",
-      "position": "Freelance",
+      "position": "Freelance Developer",
       "website": "http://www.moma.org/",
       "startDate": "2009-09-01",
       "endDate": "2010-08-01",
@@ -69,8 +69,8 @@
       ]
     },
     {
-      "company": "Museum of Contemporary Art Chicago",
-      "position": "Freelance",
+      "company": "MCA Chicago",
+      "position": "Freelance Developer",
       "website": "https://mcachicago.org/",
       "startDate": "2009-09-01",
       "endDate": "2010-08-01",
@@ -80,8 +80,8 @@
     },
     {
       "company": "Skull Squad",
-      "position": "Freelance",
-      "website": "",
+      "position": "Freelance Developer",
+      "website": "https://www.google.com/search?q=\"skull+squadron\"+web+development+seattle",
       "startDate": "2008-03-01",
       "endDate": "2009-07-01",
       "summary": "Small, now defunct web shop in Seattle. Front-end and back-end development of promotional websites using Drupal and Wordpress.",
@@ -89,7 +89,7 @@
       ]
     },
     {
-      "company": "Museum of Contemporary Art Chicago",
+      "company": "MCA Chicago",
       "position": "Information Systems Specialist",
       "website": "https://mcachicago.org/",
       "startDate": "2006-10-01",
@@ -99,6 +99,29 @@
       ]
     }
   ],
+  "highlights": [
+	{
+		"title":"HearstLive",
+		"link":"http://www.adweek.com/news/press/hearsts-new-content-platform-part-news-feed-part-art-installation-173593",
+		"summary":"Front-End Tech Lead for a permanent LED wall installation at Hearst Tower in NYC. The entire installation uses 7 million LEDs. It is more than 50 feet long and about 12 feet tall on both the 8th Avenue and 57th Street sides. Developed HTML-Canvas based display software running at UHD 4K resolution with 24/7 uptime. It integrates with a Laravel backend and is updated 4 x per day by an editorial team. Built with React, Node, Electron, Vim, and WebGL. You can see it at 300 W 57th St, New York, NY."
+	},
+	{
+		"title":"Foursquare Data Visualization Platform",
+		"link":"https://vimeo.com/145879457",
+		"summary":"3D Data Visualization for Foursquare to show off their new Pinpoint service. Completely modular and reusable internal tool for Foursquare."
+	},
+	{
+		"title":"Comcast Remote Control Prototype",
+		"link":"/prototype.pdf",
+        	"summary":"Touch-panel prototype of a remote control for Comcast using a hand-soldered circuit along with an Arduino Micro and a 3-D printed enclosure. Went to user testingfor investigating gesture-based TV control."
+	},
+	{
+		"title":"Vogue.com Data Migration",
+		"link":"http://vogue.com",
+        	"summary":"Migrated 330,000+ image records from a legacy custom PHP/MySQL CMS into Wordpress for the Vogue.com redesign"
+	}
+  ],
+
   "education": [
     {
       "institution": "Northwestern University",
