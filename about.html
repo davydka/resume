@@ -1,0 +1,43 @@
+<html>
+<head>
+<meta charset="utf-8">
+
+<title>DAVYDKA</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="about">
+<div class="container">
+	<link rel="import" href="nav.html" onload="handleNav(event)">
+
+	<div class="about-content">
+		<p>
+		<img src="images/about.jpg" alt="About David Whitely" />
+		Davydka (aka David Whitely) is a creative technologist, front-end engineer, software architect, and musician. He's always fascinated with interesting technical challenges and enjoys pushing the boundaries of his abilities. He's currently working full-time at Code and Theory.
+		</p>
+
+		<p>
+		David is passionate about art, music, technology, design, and exploring new tools and techniques for creating beautiful experiences. He has delivered real projects ranging from WebGL based digital installations to massive publication websites that scale. David likes to stay on top of the latest standards in web technology as well as build interactive hardware.
+		</p>
+
+		<p>
+		When not at work, he's likely testing out a new synthesizer in his band <a href="https://deadnight.bandcamp.com/" target="_blank">dead night</a>. David lives in Brooklyn, NY, with his girlfriend <a href="https://www.linkedin.com/in/samrauer/" target="_blank">Samantha</a> and their dog, <a href="https://www.instagram.com/donutthedogbk/" target="_blank">Donut</a>.
+		</p>
+	</div>
+
+	<link rel="import" href="footer.html" onload="handleFooter(event)">
+
+	<script type="text/javascript" src="webcomponents-hi.js"></script>
+	<script type="text/javascript">
+		function handleNav(ev) {
+			document.querySelector("body").insertAdjacentHTML("afterbegin", ev.target.innerHTML);
+		}
+
+		function handleFooter(ev) {
+			document.querySelector("body").insertAdjacentHTML("beforeend", ev.target.innerHTML);
+		}
+	</script>
+</div>
+</body>
+</html>

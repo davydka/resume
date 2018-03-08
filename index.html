@@ -1,35 +1,43 @@
-<!doctype hmtl>
 <html>
 <head>
-	<title>David Whitely</title>
-	<meta name='viewport' content='width=device-width, initial-scale=1'>
-	<style>
-		@font-face{
-			font-family: 'baskerville';
-			src: url('fonts/LibreBaskerville-Regular.otf') format('opentype');
-		}
-		@font-face{
-			font-family: 'baskerville';
-			font-weight: bold;
-			src: url('fonts/LibreBaskerville-Bold.otf') format('opentype');
-		}
-		@font-face{
-			font-family: 'baskerville';
-			font-style: italic;
-			src: url('fonts/LibreBaskerville-Italic.otf') format('opentype');
-		}
-		@font-face{
-			font-family: 'neuzeit';
-			src: url('fonts/NeuzeitSBook.ttf') format('truetype');
-		}
-		body {
-			margin:0;
-			font-family: 'baskerville', serif;
-		}
-	</style>
+<meta charset="utf-8">
+
+<title>DAVYDKA</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
-	<div id='root'></div>
-	<script src='/build/bundle.js'></script>
+<body class="work">
+<div class="container">
+	<link rel="import" href="nav.html" onload="handleNav(event)">
+
+	<div class="grid-container">
+		<div class="item"><a href="#"><img src="images/abilitylab.jpg" alt="Shirley Ryan AbilityLab">Shirley Ryan AbilityLab</a></div>
+		<div class="item"><a href="#"><img src="images/nbcnews.jpg" alt="NBC News Verticals">NBC News</a></div>
+		<div class="item"><a href="#"><img src="images/lightboard.jpg" alt="LightBoard">LightBoard</a></div>
+		<div class="item"><a href="#"><img src="images/theoutline.jpg" alt="The Outline">The Outline</a></div>
+		<div class="item"><a href="#"><img src="images/hearstlive.jpg" alt="HearstLive">HearstLive</a></div>
+		<div class="item"><a href="#"><img src="images/foursquare.jpg" alt="Foursquare Data Visualization Platform">Foursquare Data Visualization Platform</a></div>
+		<div class="item"><a href="#"><img src="images/xr16.jpg" alt="Comcast Remote Control Prototype">Comcast Remote Control Prototype</a></div>
+		<div class="item"><a href="#"><img src="images/vogue.jpg" alt="Vogue">Vogue</a></div>
+		<div class="item"><a href="#"><img src="images/maybelline.jpg" alt="Maybelline">Maybelline</a></div>
+		<div class="item"><a href="#"><img src="images/essie.jpg" alt="Essie">Essie</a></div>
+		<div class="item"><a href="#"><img src="images/ckone.jpg" alt="CK ONE">CK ONE</a></div>
+		<div class="item"><a href="#"><img src="images/fno.jpg" alt="Fashion's Night Out">Fashion's Night Out</a></div>
+		<div class="item"><a href="#"><img src="images/gant.jpg" alt="GANT">GANT</a></div>
+	</div>
+	<link rel="import" href="footer.html" onload="handleFooter(event)">
+
+</div>
+	<script type="text/javascript" src="webcomponents-hi.js"></script>
+	<script type="text/javascript">
+		function handleNav(ev) {
+			document.querySelector("body").insertAdjacentHTML("afterbegin", ev.target.innerHTML);
+		};
+
+		function handleFooter(ev) {
+			document.querySelector("body").insertAdjacentHTML("beforeend", ev.target.innerHTML);
+		};
+	</script>
 </body>
 </html>

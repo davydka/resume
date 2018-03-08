@@ -1,0 +1,156 @@
+<html>
+<head>
+<meta charset="utf-8">
+
+<title>DAVYDKA</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="resume">
+<div class="container">
+	<link rel="import" href="nav.html" onload="handleNav(event)">
+	<h3 class="label">Creative Developer</h3>
+
+	<div class="resume-content">
+		<div class="resume-holder">
+			<div><h2>Contact</h2></div>
+			<div>
+				Email: davydka@gmail.com<br/>
+				Location: Brooklyn, NY
+			</div>
+
+			<div><h2>About</h2></div>
+			<div>
+				David is passionate about art, music, technology, design, and exploring new tools and techniques for creating beautiful experiences. He has delivered real projects ranging from WebGL based digital installations to massive publication websites that scale. David likes to stay on top of the latest standards in web technology as well as build interactive hardware. 
+			</div>
+			
+			<div><h2>Favorite Tools</h2></div>
+			<div>
+				<ul>
+					<li><a href="http://openframeworks.cc/" target="_blank">openframeworks</a></li>
+					<li><a href="https://cycling74.com/" target="_blank">max/msp</a></li>
+					<li><a href="https://puredata.info/" target="_blank">pd</a></li>
+					<li><a href="https://nodejs.org/en/" target="_blank">node.js</a></li>
+					<li><a href="https://threejs.org/" target="_blank">three.js</a></li>
+					<li><a href="http://www.pixijs.com/" target="_blank">pixi.js</a></li>
+					<li><a href="https://electron.atom.io/" target="_blank">electron</a></li>
+					<li><a href="https://github.com/facebook/react" target="_blank">react</a></li>
+				</ul>
+			</div>
+
+			<div><h2>Profiles</h2></div>
+			<div>
+				<ul>
+					<li><a href="https://github.com/davydka" target="_blank">GitHub</a></li>
+					<li><a href="https://www.linkedin.com/in/davydka" target="_blank">LinkedIn</a></li>
+					<li><a href="https://www.instagram.com/davydka/" target="_blank">Instagram</a></li>
+				</ul>
+			</div>
+
+
+
+			<div class="title"><h1>Work</h1></div>
+			<div class="title"><h1></h1></div>
+
+			<div class="work-item">
+				<h4>Code and Theory</h4>
+			</div>
+			<div class="work-item"></div>
+			<div class="work-item">
+				Creative Technologist<br /> Senior Developer<br /> 2011-01-01 — Present
+			</div>
+			<div>
+				Front-End Developer → Senior Developer → Creative Technologist. Worked with a variety of clients such as Hearst, Foursquare, Vogue, Maybelline, Comcast + many more.
+			</div>
+
+			<div class="work-item">
+				<h4>Pronto.com</h4>
+			</div>
+			<div class="work-item"></div>
+			<div class="work-item">
+				Front-End Developer<br /> 2010-01-01 — 2011-01-01
+			</div>
+			<div>
+				Pixel perfect front-end development using CSS, jQuery, and JSTL. Strong emphasis on cross-browser compatibility and performance. 18 Million visitors per month with in-depth analytics and AB testing reviews and check-ins. Part of IAC.com.
+			</div>
+
+			<div class="work-item">
+				<h4>The Museum of Modern Art</h4>
+			</div>
+			<div class="work-item"></div>
+			<div class="work-item">
+				Freelance Developer<br /> 2009-09-01 — 2010-08-01
+			</div>
+			<div>
+				MoMA, NYC. Migrated the company intranet from Microsoft SQL Server to new MySQL based system. Fixed various user interface bugs and added new functionality to their CMS as well as made some requested layout changes to their Smarty template. Provided technical documentation of their system.
+			</div>
+
+			<div class="work-item">
+				<h4>MCA Chicago</h4>
+			</div>
+			<div class="work-item"></div>
+			<div class="work-item">
+				Freelance Developer<br /> 2009-09-01 — 2010-08-01
+			</div>
+			<div>
+				Development of content management system for Collections and Exhibitions Departments using MySQL, Filemaker Pro, and Codeigniter, and jQuery.
+			</div>
+
+			<div class="work-item">
+				<h4>Skull Squad</h4>
+			</div>
+			<div class="work-item"></div>
+			<div class="work-item">
+				Freelance Developer<br /> 2008-03-01 — 2009-07-01
+			</div>
+			<div>
+				Small, now defunct web shop in Seattle. Front-end and back-end development of promotional websites using Drupal and Wordpress.
+			</div>
+
+			<div class="work-item">
+				<h4>MCA Chicago</h4>
+			</div>
+			<div class="work-item"></div>
+			<div class="work-item">
+				Information Systems Specialist<br /> 2006-10-01 — 2008-09-01
+			</div>
+			<div>
+				Developer of Museum Intranet using PHP, MySQL, CSS, and JavaScript. Assistant development of mcachicago.org, using CSS and JavaScript.
+			</div>
+
+
+			<div class="title"><h1>Education</h1></div>
+			<div class="title"><h1></h1></div>
+
+			<div class="work-item">
+				<h4>Northwestern University</h4>
+			</div>
+			<div class="work-item"></div>
+			<div class="work-item">
+				2000 — 2004
+			</div>
+			<div>
+				Bachelors of Music<br />
+				Music Technology and Jazz Upright Bass
+			</div>
+
+
+		</div>
+	</div>
+
+	<link rel="import" href="footer.html" onload="handleFooter(event)">
+
+	<script type="text/javascript" src="webcomponents-hi.js"></script>
+	<script type="text/javascript">
+		function handleNav(ev) {
+			document.querySelector("body").insertAdjacentHTML("afterbegin", ev.target.innerHTML);
+		}
+
+		function handleFooter(ev) {
+			document.querySelector("body").insertAdjacentHTML("beforeend", ev.target.innerHTML);
+		}
+	</script>
+</div>
+</body>
+</html>

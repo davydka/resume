@@ -1,0 +1,224 @@
+body {
+	font-family: Verdana, arial, helvetica, sans-serif;
+	margin: 0;
+	color: #222;
+	background-color: #fcfcfc;
+}
+
+a {
+	text-decoration: none;
+	color: #999;
+}
+a:hover {
+	color: #000;
+}
+
+p {
+	color: #999;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+ul {
+	margin: 0;
+	padding:0;
+	list-style-position: inside;
+}
+
+.work a.work,
+.about a.about,
+.resume a.resume,
+.contact a.contact {
+	color: #111;
+}
+
+h1 a {
+	color: #222;
+}
+
+.container {
+	padding: 0;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.grid-container {
+	clear: both;
+	display: grid;
+	grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+.header {
+	margin: 28px 20px;
+}
+.header::before {
+	content: "";
+	display: table;
+}
+.header::after {
+	clear:both;
+	content: "";
+	display: table;
+}
+
+.header .davydka {
+	float: left;
+	font-family: Monospace;
+	white-space: pre;
+	font-size: 24px;
+	margin: 16px 0;
+}
+
+.header nav {
+	float: right;
+	font-size: 14px;
+	line-height: 24px;
+	margin: 16px 0;
+}
+
+.header nav a {
+	text-transform: uppercase;
+	margin: 0 16px;
+}
+.header nav a:last-child {
+	margin-right: 0;
+}
+
+.item {
+	margin: 0 20px 24px;
+	text-align: center;
+	font-size: 12px;
+}
+.item a {
+	color: #707070;
+	display: block;
+}
+.item a:hover {
+	color: #222;
+}
+.item img {
+	display: block;
+	width: 100%;
+	border: 1px solid #707070;
+	margin-bottom: 6px;
+}
+.item img:hover {
+	border: 1px solid #222;
+}
+
+.footer {
+	text-align: right;
+	margin: 0 20px 20px;
+}
+
+.footer a {
+	margin-left: 10px;
+}
+
+.footer svg {
+	height: 16px;
+	fill: #707070;
+}
+.footer svg:hover {
+	fill: #222;
+}
+
+
+.about .about-content {
+	margin: 0 20px;
+	clear:both;
+	content: "";
+	display: table;
+}
+
+.about .about-content img {
+	float: left;
+	width: 300px;
+	margin: 0 20px 20px 0;
+}
+
+.about .about-content p a {
+	color: #666;
+}
+
+
+.resume h2 {
+	margin: 0;
+}
+
+.resume .resume-content {
+	margin: 0;
+	clear:both;
+	content: "";
+	display: table;
+}
+
+.resume .resume-holder {
+	display: grid;
+	grid-template-columns: 35% 65%;
+}
+
+.resume .header {
+	margin-bottom: 0px;
+}
+
+.resume .label {
+	color: #666;
+	margin: 8px 0 20px;
+	padding: 0 0 20px;
+	font-weight: normal;
+	font-size: 16px;
+	letter-spacing: 2px;
+	border-bottom: 1px solid #222;
+}
+
+.resume-holder h4 {
+	margin: 0 0 8px;
+}
+
+.resume-holder div {
+	margin-bottom: 40px;
+}
+
+.resume-holder div.work-item {
+	margin-bottom: 0;
+}
+
+.resume-holder a {
+	color: #222;
+}
+
+.resume-holder a:hover {
+	text-decoration: underline;
+}
+
+.resume .title {
+	border-top: 1px solid #222;
+	border-bottom: 1px solid #222;
+}
+
+
+@media only screen and (max-width: 721px) {
+	.about .aboutContent img {
+		display: block;
+		float: none;
+		margin: 0 auto 20px;
+	}
+
+	.grid-container {
+		grid-template-columns: 50% 50%;
+	}
+}
+
+
+@media print {
+	@page {
+		size: A4 portrait;
+	}
+
+	nav,
+	.footer {
+		display: none;
+	}
+}
+
